@@ -1,0 +1,114 @@
+
+  .subhead {
+    padding: 2em;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: underline #67A0B2;
+    text-decoration-thickness:5px;
+    color: #45303D !important;
+  }
+
+body {
+      /* background: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
+    /* background-color: #5F3222; */
+    background-image: url(/images/pattern.png);
+    text-align: justify;
+    color: #45303D;
+}
+
+#project {
+  position: relative;
+  padding-top: 75%;
+  z-index: 1;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+
+  /* #cardgrid {
+    margin-left: 3em;
+    margin-right: 3em;
+  } */
+
+
+.navbar {
+  font-weight: bold;
+  /* background-color: #98BED2; */
+  background-color: #67A0B2;
+
+}
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 1em;
+  font-weight: 800;
+}
+
+h2{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color:rgba(0, 0, 0, 0.87);
+  background:#fff;
+  /* box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%); */
+}
+
+.card-title {
+  color: #F3E0B5;
+  text-decoration: underline #67A0B2;
+}
+
+.card-blog {
+  margin-top:30px;
+}
+
+.card-image {
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: -30px !important;
+  border-radius: 6px;
+  padding-top: 1em;
+}
+.card-subtitle {
+  color: #F3E0B5;
+}
+
+.icon {
+  text-decoration: none;
+}
+
+.icon > .label {
+  display: none;
+}
+.icon.alt {
+  display: inline-block;
+  border: solid 2px;
+  border-radius: 100%;
+}
+
+.icon.alt:before {
+    display: block;
+    font-size: 1.25em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+.icon.alt {
+  border-color: rgba(68, 8, 8, 0.35);
+  color: #F3E0B5;
+}
+
+  .icon.alt:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
+
+
